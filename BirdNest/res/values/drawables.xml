@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item name="myjumei_normal" type="drawable">#00ffffff</item>
+    <item name="myjumei_normal_focus" type="drawable">#fff8648c</item>
+    <item name="myjumei_selected" type="drawable">#fffdd0de</item>
+    <item name="transparent" type="drawable">#ffffffff</item>
+    <item name="listselected" type="drawable">#fffbd0de</item>
+    <item name="list_selected" type="drawable">#ffeeeeee</item>
+    <item name="tag" type="drawable">#ffffffff</item>
+    <item name="reply_list_normal" type="drawable">#fff5f5f5</item>
+    <item name="reply_list_selected" type="drawable">#ffeeeeee</item>
+    <item name="menu_item_normal" type="drawable">#ff333333</item>
+    <item name="menu_item_selected" type="drawable">#ff222222</item>
+    <item name="classify_item_normal" type="drawable">#ffffffff</item>
+    <item name="classify_item_selected" type="drawable">#ffeeeeee</item>
+    <item name="blue_btn_bg_normal" type="drawable">#ff5cace4</item>
+    <item name="blue_btn_bg_selected" type="drawable">#ff0066cc</item>
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    
+    	
+	<!-- 显示姓名 -->
+    <TextView 
+        android:id="@+id/contact_name"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="王文涛"
+        android:layout_weight="0.5"
+        android:background="@color/white"/>
+    
+    <!-- 点击可以直接打电话 -->
+     <TextView 
+        android:id="@+id/phnoecall"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="打电话"
+        android:layout_weight="1"
+        android:background="@color/gray"/>
+     
+       <TextView 
+        android:id="@+id/send_sms"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="发短信"
+        android:layout_weight="1"
+        android:background="@color/blue"/>
+</LinearLayout>

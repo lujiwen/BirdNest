@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tencent_list_selector"
+    android:descendantFocusability="blocksDescendants" >
+
+    <LinearLayout
+        android:id="@+id/news_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tencent_list_selector"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingTop="3.0dip" >
+
+          <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:id="@+id/headicon"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/empty"
+                        android:focusable="false"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/avatar_default" />
+                </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:padding="4.0dip" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="32.0dip"
+                android:layout_alignParentLeft="true"
+                android:text="小巫"
+                android:textColor="@color/blue"
+                android:textSize="14.0sp" />
+			<TextView 
+			    android:id="@id/msg_title"
+			    android:layout_below="@id/name"
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				 android:textSize="15.0sp"
+				 android:textStyle="bold"
+				android:text="标题，标题我爱你！"
+			    />
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_alignTop="@+id/name"
+                android:layout_marginTop="2dp"
+                android:layout_toRightOf="@+id/name"
+                android:src="@drawable/app_logo" />
+
+            <TextView
+                android:id="@+id/timestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="32.0dip"
+                android:layout_alignParentRight="true"
+                android:textColor="#F18D00"
+                android:textSize="8.0sp" />
+
+            <ImageView
+                android:id="@+id/home_hasimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/timestamp" />
+
+            <TextView
+                android:id="@id/msg_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/msg_title"
+                android:text="呵呵"
+                android:textColor="#081008"
+                android:textSize="14.0sp" />
+
+            <ImageView
+                android:id="@+id/iv_status_image"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_below="@id/msg_content"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/empty"
+                android:focusable="false"
+                android:src="@drawable/ic_launcher"
+                android:visibility="gone" />
+				
+            <TextView
+                android:id="@+id/home_source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/news_content"
+                android:layout_below="@id/iv_status_image"
+                android:textColor="#101810"
+                android:textSize="10.0sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/news_more_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更多"
+            android:textColor="#000"
+            android:textSize="16sp" >
+        </TextView>
+
+        <ProgressBar
+            android:id="@+id/pb_more"
+            style="?android:attr/progressBarStyleSmallTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/tv_more"
+            android:visibility="gone" />
+    </RelativeLayout>
+       <ImageView
+			        android:layout_width="match_parent"
+			        android:layout_height="1px"
+			        android:background="#00000000" />
+</FrameLayout>

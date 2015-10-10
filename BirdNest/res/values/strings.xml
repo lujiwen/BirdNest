@@ -1,0 +1,58 @@
+<resources>
+
+    <string name="app_name">燕窝</string>
+	<string name="tabtitle1">新闻</string>
+	<string name="tabtitle2">通知</string>
+	<string name="tabtitle3">活动预告</string>
+	<string name="tabtitle4">通讯录</string>
+	<string name="tabtitle5">个人中心</string>
+	 <string name="pull_to_refresh_pull_label" translatable="false">向下拉动可以刷新</string>
+    <string name="pull_to_refresh_release_label" translatable="false">松开可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label" translatable="false">加载中&#8230;</string>
+    <string name="pull_to_refresh_tap_label" translatable="false">点击刷新</string>
+	<string name="loadinfo">加载中....</string>
+	 <string name="empty"></string>
+	 <string name="back">返回</string>
+	 <string name="confirm">确定</string>
+	 <string name="cancel">取消</string>
+	 <string name="please_choose">请选择</string>
+ 	 <string name="update_psw">修改密码</string>
+ 	 <string name="personInfo">个人信息</string>
+	<string-array name="department">
+	     <item>研究生工作部</item>
+	     <item>常委  </item>
+	     <item>主席团</item>
+	     <item>秘书处</item>
+	     <item>组织部</item>
+	     <item>宣传部</item>
+	     <item>新媒体中心</item>
+	     <item>《川大研究生》报社</item>
+	     <item>《星期日》杂志社</item>
+	     <item>调查研究部</item>
+	     <item>生活部服务部</item>
+	     <item>对外联络部</item>
+	     <item>国际交流与合作部</item>
+	     <item>学术科技部</item>
+	     <item>博士生部</item>
+	     <item>社会实践部</item>
+	     <item>创业就业部</item>
+	     <item>文艺部</item>
+	     <item>体育部</item>
+	     <item>江安工作部</item>
+	     <item>华西工作部</item>
+	 </string-array>
+	 
+	
+     <!-- 升级 -->
+    <string name="more_update_msg_3">检查更新失败：无法连接到网络</string>
+    <string name="more_update_msg_1">版本已经是最新，不需要升级！</string>
+    <string name="banbenshenji">版本升级</string>
+    <string name="update_ok">升级</string>
+    <string name="register_cancel">取消</string>
+    <string name="more_update_msg">检查到最新版本为：V</string>
+    <string name="more_update_msg_2">. 是否升级？</string>
+    <string name="downlaoding">正在下载中，请稍后</string>
+    <string name="url_error">下载地址错误!</string>
+    <string name="update_timeout">请求超时，请检查网络状态!</string>
+    <string name="tip">提示</string>
+</resources>

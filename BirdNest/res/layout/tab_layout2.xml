@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+    >
+        <com.example.birdnest.control.TitleBar 
+        android:id="@+id/tabHeader2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.example.birdnest.control.TitleBar>
+ 
+  <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/notice_List"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants"
+        android:divider="#ffdddddd"
+        android:dividerHeight="1px"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="true"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrHeaderBackground="#ffffff"
+        ptr:ptrHeaderSubTextColor="#666666"
+        ptr:ptrHeaderTextColor="#666666" 
+	/>
+        <LinearLayout
+        android:id="@id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ProgressBar
+            android:id="@+id/loading_progrssbar"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/progress_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="努力加载中"
+            android:textColor="#666666"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>
